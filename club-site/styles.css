@@ -1,0 +1,30 @@
+/* Step 1 — Global spacing + container
+
+Set box-sizing
+
+Set base font size + body font
+
+Make .container use % width + max-width
+
+Add padding to sections using rem */
+
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    
+}
+
+.container {
+    width: 100%;
+    /* border: 2px solid black; */
+
+}
+
+section {
+    padding: 2rem;
+}
