@@ -43,8 +43,9 @@ section {
   }
 
   .hero-text {
-    flex: 1 1 70%;
+    flex: 1 1 50%;
     padding: 3rem;
+
    
     
   
@@ -69,15 +70,12 @@ section {
     
   }
 
-  .here-image {
-      flex: 1 1 30%;
-      /* border: 2px solid black; */
-      
-  
+  .hero-image {
+      flex: 1 1 50%;
+       border: 8px solid orange;
   }
 
   .hero-image img {
-    border: 8px solid orange;
     width: 100%; 
     height: auto;
     display: block;
