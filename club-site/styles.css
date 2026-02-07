@@ -29,15 +29,15 @@ section {
     width: 90%;
     margin: 0 auto;
     max-width: 90%;
+    
 }
 
 .hero-content {
   text-align: center;
+
 }
 
-.hero-content h1, p, img {
-  padding: 1rem;
-}
+
 
 .about-content {
   text-align: center;
@@ -55,8 +55,16 @@ section {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 850px) {
  
+  .hero-content, .hero-content p {
+    padding: 1rem;
+
+  }
+
+  button {
+    margin: 1rem;
+  }
 
 }
 
@@ -126,7 +134,6 @@ section {
   }
 
 
-
   .runs-content {
     display: flex;
     align-items: center;
@@ -149,7 +156,7 @@ section {
   }
 
   .runs-image {
-      flex: 1 1 70%;
+      flex: 1 1 50%;
       height: 100%;
 
   }
